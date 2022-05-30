@@ -20,7 +20,7 @@ def fld2pdf(folder: Path, out: str):
     os.makedirs(thumb_path.parent, exist_ok=True)
     thumbnail.save(thumb_path)
     thumbnail.close()
-    pdf = folder / f'{out}.pdf'
+    pdf = folder / f'{out} - @Manga_Loverz.pdf.pdf'
     try:
         img2pdf(files, pdf)
     except BaseException as e:
