@@ -9,7 +9,7 @@
         "bot"
     ],
     "stack": "container",
-    "repository": "https://github.com/driverog/tg-manga-bot",
+    "repository": "https://github.com/LegacyOO7/manga",
     "success_url": "/welcome",
     "env": {
         "API_ID": {
